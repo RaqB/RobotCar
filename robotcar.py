@@ -1,6 +1,6 @@
-from MyGraph import MyGraph
+from simplegraph import *
 
-maze = MyGraph({
+maze = SimpleGraph({
     50: (30, -1, -1, -1),
     30: (-1, 32, 50, -1),
     32: (12, 33, -1, 30),
@@ -54,7 +54,7 @@ def findStrOfMoves(start, goal):
 
 
 if __name__ == '__main__':
-    with open("Answers.txt", "w", encoding="utf-8") as out:
+    with open("answers.txt", "w", encoding="utf-8") as out:
         try:
             for a in points:
                 for b in points:

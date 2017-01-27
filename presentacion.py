@@ -1,8 +1,8 @@
 from turtle import *
-from MyGraph import MyGraph
+from simplegraph import *
 
 redLines = True
-maze = MyGraph({
+maze = SimpleGraph({
     50: (-1, 30, -1, -1),
     30: (32, -1, -1, 50),
     32: (33, 12, 30, -1),

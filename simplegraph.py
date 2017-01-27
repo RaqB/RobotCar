@@ -1,4 +1,4 @@
-class MyGraph:
+class SimpleGraph:
     def __init__(self, data):
         """
         Params:
