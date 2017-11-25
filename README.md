@@ -2,7 +2,7 @@
 Se le presenta un escenario en donde usted tendrá que programar un carro seguidor de líneas; el cual será capaz de trasladarse desde un punto hacia otro, dentro del laberinto que se muestra a continuación:
 
 <p align="center">
-  <img src="https://github.com/SantiagoONE/Needs/blob/master/RobotCar/images/redmaze.gif?raw=true"/>
+  <img src="https://raw.githubusercontent.com/rqbazan/RobotCar/master/images/redmaze.gif"/>
 </p>
 
 El robot solo puede moverse por las lineas rojas. Aqui esta la leyenda del laberinto:
